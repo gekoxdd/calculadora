@@ -28,8 +28,18 @@ botones.forEach((btn) => {
     });
 });
 
-document.getElementById("login-button").addEventListener("click", function() {
+document.getElementById("calculadora-button").addEventListener("click", function() {
     document.getElementById("calculadora").style.display = "grid";
-    document.getElementById("login-button").style.display = "none";
+    document.getElementById("calculadora-button").style.display = "none"; 
+    document.getElementById("cratuda-button").style.display = "none";
+    document.getElementById("todasmispracticas").style.display = "none";
+    pantalla.value = "0";
+});
+
+document.getElementById("cratuda-button").addEventListener("click", function() {
+    document.getElementById("cratudallorona").style.display = "block";
+    document.getElementById("calculadora-button").style.display = "none"; 
+    document.getElementById("cratuda-button").style.display = "none";
+    document.getElementById("todasmispracticas").style.display = "none";
     pantalla.value = "0";
 });

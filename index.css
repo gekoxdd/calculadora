@@ -2,10 +2,10 @@
     position: absolute;
 }
 
-#login-button {
+#calculadora-button {
     position: absolute;
-    top: 50%;
     left: 50%;
+    margin-top: -10%;
     transform: translate(-50%, 200%);
     text-align: center;
     padding: 50px;
@@ -13,6 +13,22 @@
     align-items: center;
     justify-content: center;
     font-weight: bold;
+    font-size: 20px;
+}
+
+#cratuda-button {
+    padding: auto;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, 200%);
+    text-align: center;
+    padding: 55px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+    font-size: 20px;
 }
 
 #login-button:hover {
