@@ -1,0 +1,147 @@
+#login-button {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, 200%);
+    text-align: center;
+    padding: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+}
+
+#login-button:hover {
+    transform: translate(-50%, 190%);
+}
+
+#calculadora {
+    transform: translate(0%, 50%);
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 5px;
+    width: 200px;
+    margin: auto;
+    background: linear-gradient(rgba(9, 125, 192, 0.747), rgba(33, 41, 156, 0.753), rgb(28, 100, 148));
+    padding: 10px;
+    border-radius: 10px;
+    display: none;
+}
+
+#pantalla {
+    grid-column: span 4;
+    height: 40px;
+    text-align: right;
+    font-size: 1.2em;
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    background: linear-gradient(rgb(26, 25, 25), rgb(56, 55, 55));
+    border: none;
+    color: white;
+}
+
+body {
+    position: relative;
+    background-color: gray;
+    user-select: none;
+}
+
+button {
+    background: linear-gradient(rgba(38, 38, 44, 0.788), rgba(38, 38, 44, 0.445));
+    border: none;
+    box-shadow: 10px rgba(61, 69, 77, 0.534);
+    color: white;
+    border-radius: 17px;
+    padding: 15px;
+    cursor: pointer;
+    transition: all .3s;
+    font-weight: bold;
+}
+
+button:hover {
+    background-color: rgb(36, 36, 37);
+    box-shadow: 10px 5px rgba(61, 69, 77, 0.445);
+}
+
+#C {
+    background: linear-gradient(rgba(161, 82, 82, 0.822), rgba(255, 0, 0, 0.397));
+    border: none;
+    color: white;
+    padding: 10px;
+    cursor: pointer;
+    transition: all .3s;
+    font-weight: bold;
+}
+
+#C:hover {
+    background: linear-gradient(rgb(199, 174, 174), rgba(255, 0, 0, 0.801));
+    box-shadow: 10px 5px rgba(143, 28, 28, 0.637);
+}
+
+#sumar {
+    background: linear-gradient(rgba(0, 0, 255, 0.288), rgba(22, 99, 167, 0.377));
+    border: none;
+    box-shadow: 10px rgba(40, 31, 163, 0.678);
+    color: white;
+    padding: 10px;
+    cursor: pointer;
+    transition: all .3s;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+#sumar:hover {
+    background: linear-gradient(rgba(0, 0, 255, 0.842), rgb(30, 92, 146));
+    box-shadow: 10px 5px rgba(36, 29, 136, 0.562);
+}
+
+#restar {
+    background: linear-gradient(rgba(9, 129, 209, 0.274), rgb(25, 88, 143));
+    border: none;
+    box-shadow: 10px rgba(40, 31, 163, 0.678);
+    color: white;
+    padding: 10px;
+    cursor: pointer;
+    transition: all .3s;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+#restar:hover {
+    background: linear-gradient(rgb(9, 129, 209), rgb(25, 88, 143));
+    box-shadow: 10px 5px rgba(19, 103, 158, 0.562);
+}
+
+#igual {
+    background: linear-gradient(rgba(18, 168, 12, 0.274), rgba(17, 224, 9, 0.63));
+    border: none;
+    box-shadow: 10px rgba(31, 163, 97, 0.678);
+    color: white;
+    padding: 10px;
+    cursor: pointer;
+    transition: all .3s;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+#igual:hover {
+    background: linear-gradient(rgb(31, 163, 97), rgb(30, 146, 88));
+    box-shadow: 10px 5px rgba(28, 190, 109, 0.678)
+}
+
+#punto {
+    background: linear-gradient(rgba(139, 168, 12, 0.274), rgba(224, 220, 9, 0.63));
+    border: none;
+    box-shadow: 10px rgba(163, 143, 31, 0.678);
+    color: white;
+    padding: 10px;
+    cursor: pointer;
+    transition: all .3s;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+#punto:hover {
+    background: linear-gradient(rgb(172, 206, 21), rgb(212, 193, 21));
+    box-shadow: 10px 5px rgba(190, 174, 28, 0.678)
+}
